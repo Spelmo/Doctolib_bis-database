@@ -1,24 +1,20 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## The Doctolib_bis database
 
-Things you may want to cover:
+This is a database for The Hacking Project's exercize Doctolib_bis made by Marie-Charlotte Le Morvan. The project is a website where users can find doctors with different specialties and make appointments with them.
 
-* Ruby version
 
-* System dependencies
+It is made of 5 models:
 
-* Configuration
+* Doctor
+* Patient
+* Appointment
+* City
+* Specialty
 
-* Database creation
 
-* Database initialization
+It uses 1-N and N-N connexion between models.
 
-* How to run the test suite
+To run `git clone`then `bundle install` and `rails db:migrate`
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
